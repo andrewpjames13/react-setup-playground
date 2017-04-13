@@ -1,0 +1,23 @@
+exports[`test snapshot 1`] = `
+<div
+  className="App colXs12">
+  <div
+    className="header">
+    <img
+      alt="logo"
+      className="logo"
+      src="test-file-stub" />
+    <h2>
+      Welcome to React
+    </h2>
+  </div>
+  <p
+    className="intro">
+    To get started, edit 
+    <code>
+      src/App.js
+    </code>
+     and save to reload.
+  </p>
+</div>
+`;
