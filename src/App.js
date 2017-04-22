@@ -5,7 +5,6 @@ import grid from './grid.scss';
 
 class App extends Component {
   render() {
-    console.log(styles, grid);
     return (
       <div className={`${styles.App} ${grid.colXs12}`}>
         <div className={styles.header}>
