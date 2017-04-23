@@ -5,7 +5,6 @@ import StyleGuide from './StyleGuide';
 
 it('renders without crashing', () => {
   const wrapper = shallow(<StyleGuide />);
-  // const welcome = <h2>AngelMD StyleGuide</h2>;
 
   expect(wrapper.contains(<h2>AngelMD StyleGuide</h2>)).toEqual(true);
 });
