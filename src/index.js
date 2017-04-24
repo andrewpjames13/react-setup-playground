@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import App from './App';
 import StyleGuide from './StyleGuide/StyleGuide';
-import grid from 'Shared/styles/grid.scss';
+import grid from 'Styles/grid.scss';
 import './index.scss';
 
 ReactDOM.render(

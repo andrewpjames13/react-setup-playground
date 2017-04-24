@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ColorBlocks from './components/ColorBlocks';
-import grid from 'Shared/styles/grid.scss';
+import grid from 'Styles/grid.scss';
 
 class StyleGuide extends Component {
   render() {
