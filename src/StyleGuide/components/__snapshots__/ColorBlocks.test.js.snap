@@ -1,0 +1,9 @@
+exports[`test snapshot 1`] = `
+<div
+  className="primary">
+  <h2>
+    $
+    primary
+  </h2>
+</div>
+`;

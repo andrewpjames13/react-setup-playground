@@ -6,7 +6,7 @@ import grid from 'Shared/styles/grid.scss';
 class App extends Component {
   render() {
     return (
-      <div className={`${styles.App} ${grid.colXs12}`}>
+      <div className={`${styles.App} ${grid.xs100}`}>
         <div className={styles.header}>
           <img src={logo} className={styles.logo} alt="logo" />
           <h2>Welcome to React</h2>

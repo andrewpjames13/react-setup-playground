@@ -1,0 +1,15 @@
+@import "~Shared/styles/variables";
+
+@mixin brandColors($backgroundColor, $outlineColor: null, $fontColor: $white) {
+  background-color: $backgroundColor;
+  outline: 1px solid $outlineColor;
+  height: 100px;
+  width: 100%;
+  color: $fontColor;
+}
+
+.primary { @include brandColors($primary); }
+.primaryLight { @include brandColors($primaryLight); }
+.secondary { @include brandColors($secondary); }
+.secondaryMedium { @include brandColors($secondaryMedium); }
+.secondaryLight { @include brandColors($secondaryLight); }

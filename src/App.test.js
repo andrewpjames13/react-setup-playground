@@ -6,7 +6,7 @@ import App from './App';
 it('renders without crashing', () => {
   const wrapper = shallow(<App />);
   const welcome = <h2>Welcome to React</h2>;
-  expect(wrapper.find('.App').hasClass('colXs12')).toEqual(true);
+  expect(wrapper.find('.App').hasClass('xs100')).toEqual(true);
   expect(wrapper.contains(welcome)).toEqual(true);
 });
 

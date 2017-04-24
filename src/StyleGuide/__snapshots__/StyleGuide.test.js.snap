@@ -1,7 +1,55 @@
 exports[`test snapshot 1`] = `
-<div>
-  <h2>
-    AngelMD StyleGuide
-  </h2>
+<div
+  className="row maxWidth">
+  <div
+    className="row">
+    <h2>
+      AngelMD StyleGuide
+    </h2>
+  </div>
+  <div
+    className="row">
+    <div
+      className="xs100 sm25">
+      <div
+        className="primary">
+        <h2>
+          $
+          primary
+        </h2>
+      </div>
+      <div
+        className="primaryLight">
+        <h2>
+          $
+          primaryLight
+        </h2>
+      </div>
+    </div>
+    <div
+      className="xs100 sm25">
+      <div
+        className="secondary">
+        <h2>
+          $
+          secondary
+        </h2>
+      </div>
+      <div
+        className="secondaryMedium">
+        <h2>
+          $
+          secondaryMedium
+        </h2>
+      </div>
+      <div
+        className="secondaryLight">
+        <h2>
+          $
+          secondaryLight
+        </h2>
+      </div>
+    </div>
+  </div>
 </div>
 `;

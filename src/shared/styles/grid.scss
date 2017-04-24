@@ -1,3 +1,24 @@
-.colXs12 {
+@import "~Shared/styles/variables";
+@import "~Shared/styles/mixins";
+
+[class*='xs'], [class*='sm'] { float: left; }
+
+.row {
   width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.xs100 {
+  width: 100%;
+}
+
+@include respond-above($small) {
+  .sm25 {
+    width: 25%;
+  }
+};
+
+.maxWidth {
+  max-width: $maxWidth;
 }

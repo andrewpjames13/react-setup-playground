@@ -1,6 +1,6 @@
 exports[`test snapshot 1`] = `
 <div
-  className="App colXs12">
+  className="App xs100">
   <div
     className="header">
     <img
