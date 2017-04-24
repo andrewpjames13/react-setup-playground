@@ -1,0 +1,7 @@
+exports[`<CtaButton /> snapshot 1`] = `
+<button
+  className="primary"
+  onClick={[Function]}>
+  This is a button
+</button>
+`;
